@@ -1,4 +1,4 @@
-# 💤 LazyVim
+uv install script for pynvim environment:
 
-A starter template for [LazyVim](https://github.com/LazyVim/LazyVim).
-Refer to the [documentation](https://lazyvim.github.io/installation) to get started.
+Includes all optional packages and executables for molten-nvim in addition to pynvim
+uv tool install --with-executables-from jupyter_client,cairosvg,plotly,kaleido,pnglatex,nbformat --with pillow --with pyperclip --with requests -p 3.14 pynvim
